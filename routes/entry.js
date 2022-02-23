@@ -1,8 +1,7 @@
 import express from 'express';
+import { getEntry } from '../controllers/entry.js';
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send("works");
-})
+router.get('/', getEntry)
 
 export default router
