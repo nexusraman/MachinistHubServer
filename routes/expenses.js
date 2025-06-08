@@ -24,7 +24,7 @@ import {
   createMultipleSubmersibles,
   getSubmersible,
   deleteSub,
-} from '../controllers/submersible.js'
+} from '../controllers/Submersible.js'
 
 import {
   createFan,
